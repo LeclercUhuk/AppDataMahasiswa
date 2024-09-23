@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM" />
+
+    <TextView
+        android:id="@+id/tvIpk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPK" />
+
+    <TextView
+        android:id="@+id/tvCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>
